@@ -1,6 +1,7 @@
 '''
 @author: amayamunoz
 '''
+from curses.ascii import SI
 
 '''
 For this assignment you should read the task, then below the task do what it asks you to do.
@@ -44,6 +45,9 @@ Equal = A(1,2)
 
 #4) Define a function that takes in two numbers and returns the larger number. If they are the same, it should just return that number.
 def S(num1, num2):
+    si = num1 == num2
+    return SI
+
     
 #5) Define a function that takes in two words and returns a string that contains both words combined.
 
@@ -54,7 +58,5 @@ def S(num1, num2):
 #8) Define a function that takes in a string that is the name of a color. If that string is equal to your favorite color, it prints "That's my favorite color!" If it is not, it prints "That is not my favorite color. Try again."
 
 #9) Define a function that takes in a number. If the number is not equal to zero, the function runs a loop until the number reaches 0. HINT: Within the loop, keep subtracting 1 from the number.
-
-'''YOUR OWN FUNCTION'''
 
 #10) Create your own function that solves any problem you can think of.
